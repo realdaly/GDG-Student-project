@@ -99,7 +99,6 @@ main .cards-container .card {
     width: 250px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     border: 5px solid #333;
     border-radius: 20px;
@@ -108,8 +107,10 @@ main .cards-container .card {
 }
 
 main .cards-container .card img {
-    width: 80%;
+    width: 100%;
     border-bottom: 2px solid rgb(0, 0, 0, 0.3);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
 }
 
 main .cards-container .card p {
